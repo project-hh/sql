@@ -1,8 +1,8 @@
 #Делаем бекап
-mysqldump -u USER -pPASSWORD DATABASE > /path/to/file/dump.sql
+mysqldump -u USER -pPASSWORD DATABASE > D:/backup/dump.sql
 
 #Заливаем бекап в базу данных
-mysql -u USER -pPASSWORD DATABASE < /path/to/dump.sql
+mysql -u USER -pPASSWORD DATABASE < D:/backup/dump.sql
 
 
 
